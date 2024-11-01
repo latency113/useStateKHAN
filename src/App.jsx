@@ -11,10 +11,10 @@ const decrease = () => {
   return (
     <div>
       <h1>หมูปิ้งอร่อยเกิ๊น</h1>
-      <p>ราคาไม้ละ {counter} บาท 
+      <h2>ราคาไม้ละ {counter} บาท 
         <button onClick={update}>+</button>
         <button onClick={decrease}>-</button>
-      </p>
+      </h2>
       <br />
       <p>5 ไม้ {counter*5} บาท </p>
       <p>10 ไม้ {counter*10} บาท </p>
